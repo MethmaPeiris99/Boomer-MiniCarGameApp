@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BOOMER</string>
+    <string name="identify_the_car_make_button_text">Identify the Car Make</string>
+    <string name="hints_button_text">Hints</string>
+    <string name="identify_the_car_image_button_text">Identify the Car Image</string>
+    <string name="advanced_level_button_text">Advanced Level</string>
+    <string name="identifyCarMake_buttonText">Identify</string>
+    <string name="identify">Identify</string>
+    <string name="content_desc_image_view_identifyCarMake">Display a random car image</string>
+    <string name="correct_answer_display_text">CORRECT!</string>
+    <string name="todo">TODO</string>
+    <string name="change_button_text_next">Next</string>
+    <string name="button_text_hints">Submit</string>
+    <string name="hint_of_edit_text_hints">Enter a letter</string>
+    <string name="timer">TIMER</string>
+
+    <string-array name="car_make_names">
+        <item>Audi</item>
+        <item>Benz</item>
+        <item>BMW</item>
+        <item>Lamborghini</item>
+        <item>Mini</item>
+        <item>Porsche</item>
+    </string-array>
+</resources>

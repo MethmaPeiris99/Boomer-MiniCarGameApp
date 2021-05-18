@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="carImages">
+        <item>@drawable/audi_img1</item>
+        <item>@drawable/audi_img2</item>
+        <item>@drawable/audi_img3</item>
+        <item>@drawable/audi_img4</item>
+        <item>@drawable/audi_img5</item>
+        <item>@drawable/benz_img1</item>
+        <item>@drawable/benz_img2</item>
+        <item>@drawable/benz_img3</item>
+        <item>@drawable/benz_img4</item>
+        <item>@drawable/benz_img5</item>
+        <item>@drawable/bmw_img1</item>
+        <item>@drawable/bmw_img2</item>
+        <item>@drawable/bmw_img3</item>
+        <item>@drawable/bmw_img4</item>
+        <item>@drawable/bmw_img5</item>
+        <item>@drawable/lambo_img1</item>
+        <item>@drawable/lambo_img2</item>
+        <item>@drawable/lambo_img3</item>
+        <item>@drawable/lambo_img4</item>
+        <item>@drawable/lambo_img5</item>
+        <item>@drawable/mini_img1</item>
+        <item>@drawable/mini_img2</item>
+        <item>@drawable/mini_img3</item>
+        <item>@drawable/mini_img4</item>
+        <item>@drawable/mini_img5</item>
+        <item>@drawable/porsche_img1</item>
+        <item>@drawable/porsche_img2</item>
+        <item>@drawable/porsche_img3</item>
+        <item>@drawable/porsche_img4</item>
+        <item>@drawable/porsche_img5</item>
+    </array>
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdvancedLevelGameActivity">
+
+    <ImageView
+        android:id="@+id/advance_imageView1"
+        android:layout_width="251dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="48dp"
+        android:contentDescription="@string/content_desc_image_view_identifyCarMake"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/advance_editText1"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advanceScore_textView" />
+
+    <ImageView
+        android:id="@+id/advance_imageView2"
+        android:layout_width="251dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/content_desc_image_view_identifyCarMake"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toEndOf="@+id/advance_editText2"
+        app:layout_constraintTop_toBottomOf="@+id/advance_imageView1" />
+
+    <ImageView
+        android:id="@+id/advance_imageView3"
+        android:layout_width="251dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/content_desc_image_view_identifyCarMake"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advance_imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/advance_editText1"
+        android:layout_width="114dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advanceScore_textView" />
+
+    <EditText
+        android:id="@+id/advance_editText2"
+        android:layout_width="114dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="92dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advance_imageView1" />
+
+    <EditText
+        android:id="@+id/advance_editText3"
+        android:layout_width="114dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advance_imageView2" />
+
+    <TextView
+        android:id="@+id/advanceScore_textView"
+        android:layout_width="106dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/advanceSubmit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="@string/button_text_hints"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/advance_textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#FFEB3B"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/advance_editText2"
+        tools:layout_editor_absoluteX="46dp" />
+
+    <TextView
+        android:id="@+id/advance_textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="#FFEB3B"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advance_editText3" />
+
+    <TextView
+        android:id="@+id/advance_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#FFEB3B"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/advance_editText1"
+        tools:layout_editor_absoluteX="315dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

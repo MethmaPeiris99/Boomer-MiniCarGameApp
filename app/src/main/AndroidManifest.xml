@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.w1761353">
+
+    <application
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.W1761353">
+
+        <activity
+            android:name=".AdvancedLevelGameActivity"
+            android:label="@string/advanced_level_button_text"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.w1761353.MainActivity" />
+        </activity>
+        <activity
+            android:name=".IdentifyCarImageGameActivity"
+            android:label="@string/identify_the_car_image_button_text"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.w1761353.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HintsGameActivity"
+            android:label="@string/hints_button_text"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.w1761353.MainActivity" />
+        </activity>
+        <activity
+            android:name=".IdentifyCarMakeGameActivity"
+            android:label="@string/identify_the_car_make_button_text"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.w1761353.MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
